@@ -16,3 +16,5 @@ real space through supplied or created rasters of x and y coordinates.
 These values are saved as pointsList and regList for water/bed surface.
 Finally, the difference between the two surfaces are calculated, assumed as equatable to the water depth.
 The poolstat.rds file stores the list of mean, max, min and sd of pool depths for each image.
+
+In order to carry this out, a code example has been included to demonstrate how I used the package.
