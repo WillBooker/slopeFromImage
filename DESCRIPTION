@@ -1,0 +1,23 @@
+Package: slopeFromImage
+Type: Package
+Title: Deriving Slope from Side Profile Images
+Version: 0.1.0
+Author: Will Booker
+Maintainer: Will Booker <will.booker95@gmail.com>
+Description: This package converts a series of images to slope and pool depth 
+    values. This requires three main user derived inputs. The first is a vector
+    identifying the images to be used and ignored. The second is a randomForest
+    model relating the pixel values to classes. The third is corrected real space
+    coordinate rasters to convert the calculated pixel values into real slope and
+    depth values.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+        dplyr,
+        randomForest,
+        caret,
+        raster,
+        EBImage,
+        rgeos
