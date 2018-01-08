@@ -5,6 +5,7 @@ library("raster")
 library("randomForest")
 library("dplyr")
 library("slopeFromImage")
+library("rgeos")
 
 ### Boundary Types
 boundary_type <- "BS" ### WS = water surface, BS = bed surface
@@ -172,7 +173,6 @@ if (functionCall == "write") {
 
 ##### Pool depth section
 if (loessing == "y") {
-  library("rgeos")
   wdPointsDF <- read.csv("pointsListWS.txt", header = F)  # read water surface points
   bdPointsDF <- read.csv("pointsListBS.txt", header = F)  # read bed surface points
 
