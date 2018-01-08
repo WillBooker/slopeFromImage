@@ -1,4 +1,4 @@
-slopeFromImage
+# slopeFromImage #
 
 This repository uses a three step process from which the real space slope values for water and bed surfaces,
 and the depth of pools can be derived present in a side viewing camera used on the LFP at UBC Ponderosa flume lab.
