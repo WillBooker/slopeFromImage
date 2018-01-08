@@ -21,6 +21,7 @@ remove_patch <- function(ras, clump_size = 15) {
   r.NA[r == 0] <- NA
 
   ## Taken from stackOverflow
+  ##
 
 
   for (i in clVal) {
