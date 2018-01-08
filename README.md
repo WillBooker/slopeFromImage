@@ -18,3 +18,4 @@ Finally, the difference between the two surfaces are calculated, assumed as equa
 The poolstat.rds file stores the list of mean, max, min and sd of pool depths for each image.
 
 In order to carry this out, a code example has been included to demonstrate how I used the package.
+Required files: image files, randomForest regression (class to RGB value), mask saved as .txt, corrected raster of real coordinate values.
